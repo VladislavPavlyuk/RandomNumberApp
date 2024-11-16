@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RandomNumberApp</string>
+    <string name="press">Натисніть кнопку для генерації числа</string>
+    <string name="generate">Генерувати число</string>
+</resources>

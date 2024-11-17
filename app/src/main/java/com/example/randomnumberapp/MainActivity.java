@@ -9,18 +9,16 @@ import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
 
-    private TextView textView;
-    private Button button;
-    private Random random;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        textView = findViewById(R.id.textView);
-        button = findViewById(R.id.button);
-        random = new Random();
+        TextView textView = findViewById(R.id.textView);
+        Button button = findViewById(R.id.button);
+        Random random = new Random();
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
